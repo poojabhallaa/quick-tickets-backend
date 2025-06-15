@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-uhtt!%e7_hji@^%n)oh&g5kab3o1=m^puj@07o)9g4615!!u7i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'https://quick-tickets-backend.onrender.com', 
+    'quick-tickets-backend.onrender.com'
+]
 
 
 # Application definition
